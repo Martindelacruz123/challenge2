@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1.5rem 0;
+}
+
+.main-container {
+  margin: 2rem 0;
+  width: 100%;
+  display: flex;
+  height: 80vh;
+}
+
+.card {
+  padding: 5rem 4rem;
+}
+
+.card p {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  width: 80%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 2rem;
+}
+
+.card .btn {
+  padding: .7rem 2rem;
+  border-radius: 20px;
+  border: none;
+}
+
+.card .btn:hover {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.card .btn:hover a {
+  color: #fff;
+}
+
+.card .btn a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.luxury {
+  background-color: #00403f;
+  color: #fff;
+}
+
+.luxury a {
+  color: #00403f;
+}
+
+.luxury a:hover {
+  color: #fff;
+}
+
+.suvs {
+  background-color: #016972;
+  color: #fff;
+}
+
+.suvs a {
+  color: #016972;
+}
+
+.sedans {
+  background-color: #e28525;
+  color: #fff;
+}
+
+.sedans a {
+  color: #e28525;
+}
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1050px) {
+  .main-container {
+    flex-direction: column;
+    margin-top: 0%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
